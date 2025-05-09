@@ -29,7 +29,7 @@ export default function MobileNav({ navItems }: { navItems: NavItem[] }) {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <div className="mx-auto">
+          <div className="mx-auto w-[80%]">
             <Logo />
           </div>
           <div className="sr-only">

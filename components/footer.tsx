@@ -26,15 +26,15 @@ export default function Footer() {
 
   return (
     <footer>
-      <div className="dark:bg-background pb-5 xl:pb-5 dark:text-gray-300">
+      <div className="mt-12 dark:bg-background pb-5 xl:pb-5 dark:text-gray-300">
         <Link
-          className="block w-[6.25rem] mx-auto"
+          className="block w-[15.25rem] mx-auto"
           href="/"
           aria-label="Home page"
         >
           <Logo />
         </Link>
-        <div className="mt-8 flex flex-wrap items-center justify-center gap-7 text-primary">
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-7 text-primary">
           {navItems.map((navItem) => (
             <Link
               key={navItem.label}
@@ -49,13 +49,9 @@ export default function Footer() {
         </div>
         <div className="mt-8 flex flex-col lg:flex-row gap-6 justify-center text-center lg:mt-5 text-xs border-t pt-8">
           <p className="text-foreground/60">
-            &copy; {getCurrentYear()} Built by{" "}
-            <Link href="https://x.com/serge_0v" target="_blank" rel="noopener">
-              @serge_0v
-            </Link>
-            .
+            &copy; {getCurrentYear()} Productivity Hub
           </p>
-        </div>
+        </div> 
       </div>
     </footer>
   );

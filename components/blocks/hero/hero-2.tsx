@@ -11,14 +11,14 @@ type Hero2Props = Extract<
 
 export default function Hero2({ tagLine, title, body, links }: Hero2Props) {
   return (
-    <div className="container dark:bg-background py-20 lg:pt-40 text-center">
+    <div className="container dark:bg-background py-20 lg:pt-30 text-center">
       {tagLine && (
-        <h1 className="leading-[0] font-sans animate-fade-up [animation-delay:100ms] opacity-0">
-          <span className="text-base font-semibold">{tagLine}</span>
+        <h1 className="leading-[0] font-sans animate-fade-up [animation-delay:100ms] opacity-0 max-w-2xl mx-auto">
+          <span className="text-lg font-semibold">{tagLine}</span>
         </h1>
       )}
       {title && (
-        <h2 className="mt-6 font-bold leading-[1.1] text-4xl md:text-5xl lg:text-6xl animate-fade-up [animation-delay:200ms] opacity-0">
+        <h2 className="mt-6 font-bold leading-[1.1] text-4xl md:text-5xl lg:text-6xl animate-fade-up [animation-delay:200ms] opacity-0 max-w-4xl mx-auto">
           {title}
         </h2>
       )}

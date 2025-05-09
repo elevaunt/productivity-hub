@@ -1,15 +1,15 @@
 {
-  "name": "Schema UI",
-  "short_name": "Schema UI",
+  "name": "Productivity Hub",
+  "short_name": "Productivity Hub",
   "icons": [
     {
-      "src": "/web-app-manifest-192x192.png",
+      "src": "/p-hub--icon-only--colored.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/web-app-manifest-512x512.png",
+      "src": "/p-hub--icon-only--colored.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

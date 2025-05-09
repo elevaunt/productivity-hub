@@ -26,7 +26,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 w-full border-border/40 bg-background/95 z-50">
       <div className="container flex items-center justify-between h-14">
-        <Link href="/" aria-label="Home page">
+        <Link href="/" aria-label="Home page" className="w-[15.25rem]">
           <Logo />
         </Link>
         <div className="hidden xl:flex gap-7 items-center justify-between">

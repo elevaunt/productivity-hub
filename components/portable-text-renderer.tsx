@@ -77,21 +77,21 @@ const portableTextComponents: PortableTextProps["components"] = {
     normal: ({ children }) => (
       <p style={{ marginBottom: "1rem" }}>{children}</p>
     ),
-    h1: ({ children }) => (
-      <h1 style={{ marginBottom: "1rem", marginTop: "1rem" }}>{children}</h1>
-    ),
-    h2: ({ children }) => (
-      <h2 style={{ marginBottom: "1rem", marginTop: "1rem" }}>{children}</h2>
-    ),
-    h3: ({ children }) => (
-      <h3 style={{ marginBottom: "1rem", marginTop: "1rem" }}>{children}</h3>
-    ),
-    h4: ({ children }) => (
-      <h4 style={{ marginBottom: "1rem", marginTop: "1rem" }}>{children}</h4>
-    ),
-    h5: ({ children }) => (
-      <h5 style={{ marginBottom: "1rem", marginTop: "1rem" }}>{children}</h5>
-    ),
+    // h1: ({ children }) => (
+    //   <h1 style={{ marginBottom: "1rem", marginTop: "1rem" }}>{children}</h1>
+    // ),
+    // h2: ({ children }) => (
+    //   <h2 style={{ marginBottom: "1rem", marginTop: "1rem" }}>{children}</h2>
+    // ),
+    // h3: ({ children }) => (
+    //   <h3 style={{ marginBottom: "1rem", marginTop: "1rem" }}>{children}</h3>
+    // ),
+    // h4: ({ children }) => (
+    //   <h4 style={{ marginBottom: "1rem", marginTop: "1rem" }}>{children}</h4>
+    // ),
+    // h5: ({ children }) => (
+    //   <h5 style={{ marginBottom: "1rem", marginTop: "1rem" }}>{children}</h5>
+    // ),
   },
   marks: {
     link: ({ value, children }) => {
@@ -119,7 +119,6 @@ const portableTextComponents: PortableTextProps["components"] = {
           paddingLeft: "1.5rem",
           marginBottom: "1rem",
           listStyleType: "disc",
-          listStylePosition: "inside",
         }}
       >
         {children}
@@ -131,7 +130,6 @@ const portableTextComponents: PortableTextProps["components"] = {
           paddingLeft: "1.5rem",
           marginBottom: "1rem",
           listStyleType: "decimal",
-          listStylePosition: "inside",
         }}
       >
         {children}
