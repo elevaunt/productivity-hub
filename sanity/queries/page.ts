@@ -27,7 +27,7 @@ export const PAGE_QUERY = groq`
       ${cta1Query},
       ${logoCloud1Query},
       ${faqsQuery},
-      ${formNewsletterQuery},
+      // ${formNewsletterQuery},
       ${allPostsQuery},
     },
     meta_title,
