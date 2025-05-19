@@ -74,15 +74,15 @@ export type AllPosts = {
   colorVariant?: "background" | "primary" | "secondary" | "card" | "accent" | "destructive" | "muted";
 };
 
-// export type FormNewsletter = {
-//   _type: "form-newsletter";
-//   padding?: SectionPadding;
-//   colorVariant?: "background" | "primary" | "secondary" | "card" | "accent" | "destructive" | "muted";
-//   stackAlign?: "left" | "center";
-//   consentText?: string;
-//   buttonText?: string;
-//   successMessage?: string;
-// };
+export type FormNewsletter = {
+  _type: "form-newsletter";
+  padding?: SectionPadding;
+  colorVariant?: "background" | "primary" | "secondary" | "card" | "accent" | "destructive" | "muted";
+  stackAlign?: "left" | "center";
+  consentText?: string;
+  buttonText?: string;
+  successMessage?: string;
+};
 
 export type Faqs = {
   _type: "faqs";
@@ -1146,15 +1146,15 @@ export type PAGE_QUERYResult = {
       }> | null;
     }> | null;
   } | {
-  //   _type: "form-newsletter";
-  //   _key: string;
-  //   padding: SectionPadding | null;
-  //   colorVariant: "accent" | "background" | "card" | "destructive" | "muted" | "primary" | "secondary" | null;
-  //   stackAlign: "center" | "left" | null;
-  //   consentText: string | null;
-  //   buttonText: string | null;
-  //   successMessage: string | null;
-  // } | {
+    _type: "form-newsletter";
+    _key: string;
+    padding: SectionPadding | null;
+    colorVariant: "accent" | "background" | "card" | "destructive" | "muted" | "primary" | "secondary" | null;
+    stackAlign: "center" | "left" | null;
+    consentText: string | null;
+    buttonText: string | null;
+    successMessage: string | null;
+  } | {
     _type: "grid-row";
     _key: string;
     padding: SectionPadding | null;
